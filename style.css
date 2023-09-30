@@ -33,7 +33,7 @@
 }
 
 .btn{
-    margin-top: .25rem;
+    margin-top: .25rem;  
 }
 
 .btn .btn-outline-secondary{
@@ -41,11 +41,30 @@
     border-radius:18px;
     box-shadow: grey;
     font-size:.85rem;
-
 }
 
 
+.images{
+    margin-top: 2rem;
+}
 
+#hotelheading{
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+.in{
+    margin-top: 1rem;
+    margin-left: .5rem;
+}
+
+b{
+margin-left: .25rem;
+}
+
+p{
+    color: grey;
+}
 
 
 
