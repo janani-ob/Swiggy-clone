@@ -62,7 +62,14 @@ img{
     border-radius: 20px;
 }
 
+.col{
+    transition: transform .2s;
+}
 
+.col:hover{
+    -ms-transform: scale(.95); /* IE 9 */
+    transform: scale(.95); 
+}
 
 
 b {
