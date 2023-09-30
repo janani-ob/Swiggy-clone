@@ -55,8 +55,15 @@
 
 .in {
     margin-top: 1rem;
-    margin-left: .5rem;
+    margin-left:.5rem;
 }
+
+img{
+    border-radius: 20px;
+}
+
+
+
 
 b {
     margin-left: .25rem;
