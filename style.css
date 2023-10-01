@@ -24,7 +24,7 @@
 }
 
 #index {
-    margin: 25px 50px 75px 180px;
+    margin: 25px 50px 40px 180px;
 }
 
 
@@ -79,3 +79,23 @@ b {
 p {
     color: grey;
 }
+
+.introhr{
+   color:gray;
+   border: 1.5px solid;
+   margin: 35px 90px 50px 120px;
+}
+
+#places{
+     margin: 35px 90px 50px 120px;
+}
+
+#coltext{
+    padding: 16px;
+    box-sizing: border-box;
+    border: 1.5px solid grey;
+    border-radius: 12px;
+    
+
+}
+
