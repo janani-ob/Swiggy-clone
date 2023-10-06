@@ -125,20 +125,30 @@ p {
     padding-bottom: 1rem;
 }
 
-#last {
+/*#last {
     background-color: black;
     margin: auto 230px;
 }
 
+
+#contain{
+   padding: auto 230px;
+}
+
+*/
+
+#last {
+    background-color: black;
+}
+
+#last .container{
+padding-left: 10%;
+padding-right: 10%;
+}
 
 #head{
     color: whitesmoke;
     font-weight: 500;
 }
 
-
-/*
-.container{
-    margin: 25px 50px 40px 180px;
-}
-*/
+    
