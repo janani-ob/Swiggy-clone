@@ -23,18 +23,55 @@
     border: 2px solid;
 }
 
-#breadcrumb .container{
+#breadcrumb .container {
     padding-left: 18%;
     padding-right: 18%;
-    }
-    
-    #breadcrumb #olbc{
-        font-size: xx-small;
-    }
-    
-    #breadcrumb #nav-icon{
-        color: black;
-        padding-left: 530px;
-        font-size: 1.25rem;
-    }
-    
+}
+
+#breadcrumb #olbc {
+    font-size: xx-small;
+}
+
+#breadcrumb #nav-icon {
+    color: black;
+    padding-left: 530px;
+    font-size: 1.25rem;
+}
+
+#heading {
+    font-weight: 650;
+}
+
+#col1text {
+    color: grey;
+    font-size: small;
+    font-weight: normal;
+}
+
+#col2text {
+    text-align: end;
+    padding-right: 3.5rem;
+}
+
+#smhr{
+    padding: 0%;
+    margin: 0%;  
+}
+
+#star{
+    color: green;
+    padding-right: .25rem;
+    margin-bottom: 20%;
+}
+
+
+.btn p{
+   font-size: x-small;
+   margin-bottom: 20%;
+   margin-top: 20%;
+}
+
+#bike{
+    color: grey;
+}
+
