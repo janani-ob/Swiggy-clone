@@ -10,6 +10,12 @@
     padding-right: .5rem;
 }
 
+.navbar{
+    box-shadow: 0 4px 35px 0 rgba(0,0,0,0.09);
+    margin-bottom: 2rem;
+}
+
+
 #navv {
     padding-left: 2rem;
 }
