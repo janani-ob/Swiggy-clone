@@ -10,8 +10,8 @@
     padding-right: .5rem;
 }
 
-.navbar{
-    box-shadow: 0 4px 35px 0 rgba(0,0,0,0.09);
+.navbar {
+    box-shadow: 0 4px 35px 0 rgba(0, 0, 0, 0.09);
     margin-bottom: 2rem;
 }
 
@@ -80,14 +80,14 @@
     border-top: 2px dotted;
 }
 
-.smdiv{
+.smdiv {
     padding-top: .5rem;
     padding-bottom: 1.5rem;
 }
 
 .h6 {
     font-size: .5rem;
-   color: darkslategray;
+    color: darkslategray;
     font-weight: 500;
 }
 
@@ -95,12 +95,12 @@
     padding-left: 1.75rem;
 }
 
-.btn img .dis{
+.btn img .dis {
     height: 10px;
     width: 10px;
 }
 
-.btn h6 .disc{
+.btn h6 .disc {
     font-size: 1rem;
 }
 
@@ -109,17 +109,17 @@
     font-size: small;
 }
 
-.blk{
-   color: darkslategray;
+.blk {
+    color: darkslategray;
     font-weight: 500;
 }
 
-.grey{
+.grey {
     color: gray;
     font-weight: 500;
 }
 
-.veg{
+.veg {
     padding-top: 1.5rem;
 }
 
@@ -130,15 +130,15 @@
     height: 18px;
     margin: 1rem;
 
-  }
-  
-  .switch input { 
+}
+
+.switch input {
     opacity: 0;
     width: 0;
     height: 0;
-  }
-  
-  .slider {
+}
+
+.slider {
     position: absolute;
     cursor: pointer;
     top: 0;
@@ -148,9 +148,9 @@
     background-color: #ccc;
     -webkit-transition: .4s;
     transition: .4s;
-  }
-  
-  .slider:before {
+}
+
+.slider:before {
     position: absolute;
     content: "";
     height: 10px;
@@ -160,48 +160,44 @@
     background-color: white;
     -webkit-transition: .4s;
     transition: .4s;
-  }
-  
-  input:checked + .slider {
+}
+
+input:checked+.slider {
     background-color: green;
-  }
-  
-  input:focus + .slider {
+}
+
+input:focus+.slider {
     box-shadow: 0 0 1px #2196F3;
-  }
-  
-  input:checked + .slider:before {
+}
+
+input:checked+.slider:before {
     -webkit-transform: translateX(26px);
     -ms-transform: translateX(26px);
     transform: translateX(13px);
-  }
-  
-  .hr2{
-    border-top: 2px solid;
-  }
+}
 
-#nonveg{
+.hr2 {
+    border-top: 2px solid;
+}
+
+#nonveg {
     height: 1.15rem;
     width: 1.15rem;
 }
 
-  #star1{
-    color:rgb(253, 165, 2);
+#star1 {
+    color: rgb(253, 165, 2);
     font-size: small;
-  }
+}
 
-  .raita{
+.raita {
     color: grey;
     font-size: small;
-  }
+}
 
-  #food{
+#food {
     height: 7rem;
     width: 8rem;
     margin-left: 7rem;
     border-radius: 12px;
-  }
-
-
-
-  
+}
