@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="hotel.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/0eccdcc394.js" crossorigin="anonymous"></script>
 
 </head>
@@ -104,7 +107,7 @@
             <div class="smdiv">
 
                 <h6 class="h6"> <i class="fa-regular fa-hourglass-half"></i> 22 MINS <i
-                        class="fa-solid fa-indian-rupee-sign" id="rup"></i> ₹250 for two</h6>
+                        class="fa-solid fa-indian-rupee-sign" id="rup"></i> ₹250 for Three</h6>
             </div>
 
             <div class="row">
@@ -147,284 +150,594 @@
             </div>
 
             <hr class="hr2">
-            <div class="main">
-                <h5 id="heading">Recommended (19)</h5>
+            
+            <div class="accordion" id="accordionPanelsStayOpenExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                        <h5 id="heading">Recommended (17)</h5>
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                    <div class="accordion-body">
 
-                <div class="row">
-                    <div class="col-8">
-                        <img src="images/nonveg-icon.png" id="nonveg">
-                        <i class="fa-solid fa-star" id="star1"></i><b id="star1">Bestseller</b>
-                        <h6>Chicken Biryani</h6>
-                        <p>₹137</p>
-                        <p class="raita">A delightfully delicious combo of all time loved chicken biryani served along
-                            with raita.</p>
+                        <div class="row">
+                            <div class="col-8">
+                                <img src="images/nonveg-icon.png" id="nonveg">
+                                <i class="fa-solid fa-star" id="star1"></i><b id="star1">Bestseller</b>
+                                <h6>Chicken Biryani</h6>
+                                <p>₹137</p>
+                                <p class="raita">A delightfully delicious combo of all time loved chicken biryani served along
+                                    with raita.</p>
+        
+                            </div>
+        
+                            <div class="col-4">
+                                <img src="images/chickenbiryani.png" id="food">
+                            </div>
+                        </div>
+                    
+        
+                    <hr class="hrall">
+                    
+        
+                    <div class="row">
+                        <div class="col-8">
+                            <img src="images/nonveg-icon.png" id="nonveg">
+                            <i class="fa-solid fa-star" id="star1"></i><b id="star1">Bestseller</b>
+                            <h6>Mutton Biryani</h6>
+                            <p>₹208</p>
+                            <p class="raita">Slow cooked aromatic rice layered with marinated mutton pieces in a delicate blend
+                                of whole spices, served with raita.</p>
+        
+                        </div>
+        
+                        <div class="col-4">
+                            <img src="images/muttonbiryani.png" id="food">
+                        </div>
+        
+                    </div>
+        
+                    <hr class="hrall">
+        
+                    <div class="row">
+                        <div class="col-8">
+                            <img src="images/nonveg-icon.png" id="nonveg">
+                            <i class="fa-solid fa-star" id="star1"></i><b id="star1">Bestseller</b>
+                            <h6>Empty Biryani</h6>
+                            <p>₹117</p>
+                        </div>
+        
+                        <div class="col-4">
+                            <img src="images/emptybiryani.png" id="food">
+                        </div>
+        
+                    </div>
+                    <hr class="hrall">
+        
+                    <div class="row">
+                        <div class="col-8">
+                            <img src="images/nonveg-icon.png" id="nonveg">
+                            <i class="fa-solid fa-star" id="star1"></i><b id="star1">Bestseller</b>
+                            <h6>Egg Biryani</h6>
+                            <p>₹130</p>
+                            <p class="raita">Healthy yet wholesome eggs covered in flavor packed masala and slow cooked rice.
+                            </p>
+        
+                        </div>
+        
+                        <div class="col-4">
+                            <img src="images/eggbiryani.png" id="food">
+                        </div>
+        
+                    </div>
+                    <hr class="hrall">
+        
+                    <div class="row">
+                        <div class="col-8">
+                            <img src="images/nonveg-icon.png" id="nonveg">
+                            <i class="fa-solid fa-star" id="star1"></i><b id="star1">Bestseller</b>
+                            <h6>Pepper Chicken</h6>
+                            <p>₹156</p>
+                            <p class="raita">Succulent pieces of chicken tossed along with pungent pepper and masalas, and
+                                cooked to a juicy perfection.</p>
+        
+                        </div>
+        
+                        <div class="col-4">
+                            <img src="images/pepperchicken.png" id="food">
+                        </div>
+        
+                    </div>
+                    <hr class="hrall">
+        
+                    <div class="row">
+                        <div class="col-8">
+                            <img src="images/nonveg-icon.png" id="nonveg">
+                            <i class="fa-solid fa-star" id="star1"></i><b id="star1">Bestseller</b>
+                            <h6>Boneless Chilli Chicken</h6>
+                            <p>₹130</p>
+                            <p class="raita">Juicy boneless chicken chunks dipped in seasoned batter, fried and then tossed in a
+                                spicy chilli sauce along with peppers and more.</p>
+        
+                        </div>
+        
+                        <div class="col-4">
+                            <img src="images/boneless.png" id="food">
+                        </div>
+        
+                    </div>
+                    <hr class="hrall">
+        
+                    <div class="row">
+                        <div class="col-8">
+                            <img src="images/nonveg-icon.png" id="nonveg">
+                            <i class="fa-solid fa-star" id="star1"></i><b id="star1">Bestseller</b>
+                            <h6>Chicken Fry</h6>
+                            <p>₹156</p>
+                            <p class="raita">Pieces of chicken marinated in a spicy masala and deep fried.</p>
+                        </div>
+        
+                        <div class="col-4">
+                            <img src="images/chickenfry.png" id="food">
+                        </div>
+                    </div>
+        
+                    <hr class="hrall">
+        
+                    <div class="row">
+                        <div class="col-8">
+                            <img src="images/nonveg-icon.png" id="nonveg">
+                            <i class="fa-solid fa-star" id="star1"></i><b id="star1">Bestseller</b>
+                            <h6>Chicken Gravy</h6>
+                            <p>₹169</p>
+                            <p class="raita">Perfectly combined juicy chicken morsels with the aroma of whole spices.</p>
+                        </div>
+                        <div class="col-4">
+                            <img src="images/chickengravy.png" id="food">
+                        </div>
+                    </div>
+        
+        
+                    <hr class="hrall">
+        
+                    <div class="row">
+                        <div class="col-8">
+                            <img src="images/nonveg-icon.png" id="nonveg">
+                            <i class="fa-solid fa-star" id="star1"></i><b id="star1">Bestseller</b>
+                            <h6>Chicken Manchurian</h6>
+                            <p>₹169</p>
+                        </div>
+        
+                        <div class="col-4">
+                            <img src="images/chickenmanchurian.png" id="food">
+                        </div>
+        
+                    </div>
+                    <hr class="hrall">
+        
+                    <div class="row">
+                        <div class="col-8">
+                            <img src="images/nonveg-icon.png" id="nonveg">
+                            <i class="fa-solid fa-star" id="star1"></i><b id="star1">Bestseller</b>
+                            <h6>Chicken Sukka</h6>
+                            <p>₹156</p>
+                        </div>
+        
+                        <div class="col-4">
+                            <img src="images/chickensukka.png" id="food">
+                        </div>
+        
+                    </div>
+                    <hr class="hrall">
+        
+                    <div class="row">
+                        <div class="col-8">
+                            <img src="images/nonveg-icon.png" id="nonveg">
+                            <i class="fa-solid fa-star" id="star1"></i><b id="star1">Bestseller</b>
+                            <h6>Mutton Fry</h6>
+                            <p>₹240</p>
+                        </div>
+        
+                        <div class="col-4">
+                            <img src="images/muttonfry.png" id="food">
+                        </div>
+        
+                    </div>
+                    <hr class="hrall">
+        
+                    <div class="row">
+                        <div class="col-8">
+                            <img src="images/nonveg-icon.png" id="nonveg">
+                            <i class="fa-solid fa-star" id="star1"></i><b id="star1">Bestseller</b>
+                            <h6>Mutton Kudal</h6>
+                            <p>₹195</p>
+                        </div>
+        
+                        <div class="col-4">
+                            <img src="images/muttonkudal.png" id="food">
+                        </div>
+        
+                    </div>
+        
+                    <hr class="hrall">
+        
+                    <div class="row">
+                        <div class="col-8">
+                            <img src="images/nonveg-icon.png" id="nonveg">
+                            <i class="fa-solid fa-star" id="star1"></i><b id="star1">Bestseller</b>
+                            <h6>Mutton Sukka</h6>
+                            <p>₹221</p>
+                        </div>
+        
+                        <div class="col-4">
+                            <img src="images/muttonsukka.png" id="food">
+                        </div>
+        
+                    </div>
+                    <hr class="hrall">
+        
+                    <div class="row">
+                        <div class="col-8">
+                            <img src="images/nonveg-icon.png" id="nonveg">
+                            <i class="fa-solid fa-star" id="star1"></i><b id="star1">Bestseller</b>
+                            <h6>Mutton Gravy</h6>
+                            <p>₹195</p>
+                        </div>
+        
+                        <div class="col-4">
+                            <img src="images/muttongravy.png" id="food">
+                        </div>
+        
+                    </div>
+                    <hr class="hrall">
+        
+                    <div class="row">
+                        <div class="col-8">
+                            <img src="images/nonveg-icon.png" id="nonveg">
+                            <i class="fa-solid fa-star" id="star1"></i><b id="star1">Bestseller</b>
+                            <h6>Chicken Biriyani Bucket -Medium</h6>
+                            <p>₹780</p>
+                            <p class="raita">Serves 4 persons alon with 4 eggs</p>
+                        </div>
+        
+                        <div class="col-4">
+                            <img src="images/CBB-medium.png" id="food">
+                        </div>
+        
+                    </div>
+                    <hr class="hrall">
+        
+                    <div class="row">
+                        <div class="col-8">
+                            <img src="images/nonveg-icon.png" id="nonveg">
+                            <i class="fa-solid fa-star" id="star1"></i><b id="star1">Bestseller</b>
+                            <h6>Chicken Biriyani Bucket -Large</h6>
+                            <p>₹1365</p>
+                            <p class="raita">Serves 7 Persons along with 7 eggs</p>
+                        </div>
+        
+                        <div class="col-4">
+                            <img src="images/CBB-large.png" id="food">
+                        </div>
+        
+                    </div>
+                    <hr class="hrall">
+        
+                    <div class="row">
+                        <div class="col-8">
+                            <img src="images/nonveg-icon.png" id="nonveg">
+                            <i class="fa-solid fa-star" id="star1"></i><b id="star1">Bestseller</b>
+                            <h6>Egg Masala</h6>
+                            <p>₹104</p>
+                        </div>
+        
+                        <div class="col-4">
+                            <img src="images/eggmasala.png" id="food">
+                        </div>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                        <h5 id="heading">Chicken (6)</h5>
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                    <div class="accordion-body">
+                        <div class="row">
+                            <div class="col-8">
+                                <img src="images/nonveg-icon.png" id="nonveg">
+                                <i class="fa-solid fa-star" id="star1"></i><b id="star1">Bestseller</b>
+                                <h6>Pepper Chicken</h6>
+                                <p>₹156</p>
+                                <p class="raita">Succulent pieces of chicken tossed along with pungent pepper and masalas, and
+                                    cooked to a juicy perfection.</p>
+            
+                            </div>
+            
+                            <div class="col-4">
+                                <img src="images/pepperchicken.png" id="food">
+                            </div>
+            
+                        </div>
+                        <hr class="hrall">
+            
+                        <div class="row">
+                            <div class="col-8">
+                                <img src="images/nonveg-icon.png" id="nonveg">
+                                <i class="fa-solid fa-star" id="star1"></i><b id="star1">Bestseller</b>
+                                <h6>Boneless Chilli Chicken</h6>
+                                <p>₹130</p>
+                                <p class="raita">Juicy boneless chicken chunks dipped in seasoned batter, fried and then tossed in a
+                                    spicy chilli sauce along with peppers and more.</p>
+            
+                            </div>
+            
+                            <div class="col-4">
+                                <img src="images/boneless.png" id="food">
+                            </div>
+            
+                        </div>
+                        <hr class="hrall">
+            
+                        <div class="row">
+                            <div class="col-8">
+                                <img src="images/nonveg-icon.png" id="nonveg">
+                                <i class="fa-solid fa-star" id="star1"></i><b id="star1">Bestseller</b>
+                                <h6>Chicken Fry</h6>
+                                <p>₹156</p>
+                                <p class="raita">Pieces of chicken marinated in a spicy masala and deep fried.</p>
+                            </div>
+            
+                            <div class="col-4">
+                                <img src="images/chickenfry.png" id="food">
+                            </div>
+                        </div>
+            
+                        <hr class="hrall">
+            
+                        <div class="row">
+                            <div class="col-8">
+                                <img src="images/nonveg-icon.png" id="nonveg">
+                                <i class="fa-solid fa-star" id="star1"></i><b id="star1">Bestseller</b>
+                                <h6>Chicken Gravy</h6>
+                                <p>₹169</p>
+                                <p class="raita">Perfectly combined juicy chicken morsels with the aroma of whole spices.</p>
+                            </div>
+                            <div class="col-4">
+                                <img src="images/chickengravy.png" id="food">
+                            </div>
+                        </div>
+            
+            
+                        <hr class="hrall">
+            
+                        <div class="row">
+                            <div class="col-8">
+                                <img src="images/nonveg-icon.png" id="nonveg">
+                                <i class="fa-solid fa-star" id="star1"></i><b id="star1">Bestseller</b>
+                                <h6>Chicken Manchurian</h6>
+                                <p>₹169</p>
+                            </div>
+            
+                            <div class="col-4">
+                                <img src="images/chickenmanchurian.png" id="food">
+                            </div>
+            
+                        </div>
+                        <hr class="hrall">
+            
+                        <div class="row">
+                            <div class="col-8">
+                                <img src="images/nonveg-icon.png" id="nonveg">
+                                <i class="fa-solid fa-star" id="star1"></i><b id="star1">Bestseller</b>
+                                <h6>Chicken Sukka</h6>
+                                <p>₹156</p>
+                            </div>
+            
+                            <div class="col-4">
+                                <img src="images/chickensukka.png" id="food">
+                            </div>
+            
+                        </div>
+                        <hr class="hrall">
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                        <h5 id="heading">Mutton (4)</h5>
+                      </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                      <div class="accordion-body">
+
+                        <div class="row">
+                            <div class="col-8">
+                                <img src="images/nonveg-icon.png" id="nonveg">
+                                <i class="fa-solid fa-star" id="star1"></i><b id="star1">Bestseller</b>
+                                <h6>Mutton Fry</h6>
+                                <p>₹240</p>
+                            </div>
+            
+                            <div class="col-4">
+                                <img src="images/muttonfry.png" id="food">
+                            </div>
+            
+                        </div>
+                        <hr class="hrall">
+            
+                        <div class="row">
+                            <div class="col-8">
+                                <img src="images/nonveg-icon.png" id="nonveg">
+                                <i class="fa-solid fa-star" id="star1"></i><b id="star1">Bestseller</b>
+                                <h6>Mutton Kudal</h6>
+                                <p>₹195</p>
+                            </div>
+            
+                            <div class="col-4">
+                                <img src="images/muttonkudal.png" id="food">
+                            </div>
+            
+                        </div>
+            
+                        <hr class="hrall">
+            
+                        <div class="row">
+                            <div class="col-8">
+                                <img src="images/nonveg-icon.png" id="nonveg">
+                                <i class="fa-solid fa-star" id="star1"></i><b id="star1">Bestseller</b>
+                                <h6>Mutton Sukka</h6>
+                                <p>₹221</p>
+                            </div>
+            
+                            <div class="col-4">
+                                <img src="images/muttonsukka.png" id="food">
+                            </div>
+            
+                        </div>
+                        <hr class="hrall">
+            
+                        <div class="row">
+                            <div class="col-8">
+                                <img src="images/nonveg-icon.png" id="nonveg">
+                                <i class="fa-solid fa-star" id="star1"></i><b id="star1">Bestseller</b>
+                                <h6>Mutton Gravy</h6>
+                                <p>₹195</p>
+                            </div>
+            
+                            <div class="col-4">
+                                <img src="images/muttongravy.png" id="food">
+                            </div>
+            
+                        </div>
+                        <hr class="hrall">
+
+                      </div>
+                    </div>
+                  </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                        <h5 id="heading">Biryani (6)</h5>
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
+                    <div class="accordion-body">
+
+                        <div class="row">
+                            <div class="col-8">
+                                <img src="images/nonveg-icon.png" id="nonveg">
+                                <i class="fa-solid fa-star" id="star1"></i><b id="star1">Bestseller</b>
+                                <h6>Chicken Biryani</h6>
+                                <p>₹137</p>
+                                <p class="raita">A delightfully delicious combo of all time loved chicken biryani served along
+                                    with raita.</p>
+        
+                            </div>
+        
+                            <div class="col-4">
+                                <img src="images/chickenbiryani.png" id="food">
+                            </div>
+                        </div>
+                 
+        
+                    <hr class="hrall">
+        
+                    <div class="row">
+                        <div class="col-8">
+                            <img src="images/nonveg-icon.png" id="nonveg">
+                            <i class="fa-solid fa-star" id="star1"></i><b id="star1">Bestseller</b>
+                            <h6>Mutton Biryani</h6>
+                            <p>₹208</p>
+                            <p class="raita">Slow cooked aromatic rice layered with marinated mutton pieces in a delicate blend
+                                of whole spices, served with raita.</p>
+        
+                        </div>
+        
+                        <div class="col-4">
+                            <img src="images/muttonbiryani.png" id="food">
+                        </div>
+        
+                    </div>
+        
+                    <hr class="hrall">
+        
+                    <div class="row">
+                        <div class="col-8">
+                            <img src="images/nonveg-icon.png" id="nonveg">
+                            <i class="fa-solid fa-star" id="star1"></i><b id="star1">Bestseller</b>
+                            <h6>Empty Biryani</h6>
+                            <p>₹117</p>
+                        </div>
+        
+                        <div class="col-4">
+                            <img src="images/emptybiryani.png" id="food">
+                        </div>
+        
+                    </div>
+                    <hr class="hrall">
+        
+                    <div class="row">
+                        <div class="col-8">
+                            <img src="images/nonveg-icon.png" id="nonveg">
+                            <i class="fa-solid fa-star" id="star1"></i><b id="star1">Bestseller</b>
+                            <h6>Egg Biryani</h6>
+                            <p>₹130</p>
+                            <p class="raita">Healthy yet wholesome eggs covered in flavor packed masala and slow cooked rice.
+                            </p>
+        
+                        </div>
+        
+                        <div class="col-4">
+                            <img src="images/eggbiryani.png" id="food">
+                        </div>
+        
+                    </div>
+                    <hr class="hrall">
+                    <div class="row">
+                        <div class="col-8">
+                            <img src="images/nonveg-icon.png" id="nonveg">
+                            <i class="fa-solid fa-star" id="star1"></i><b id="star1">Bestseller</b>
+                            <h6>Chicken Biriyani Bucket -Medium</h6>
+                            <p>₹780</p>
+                            <p class="raita">Serves 4 persons alon with 4 eggs</p>
+                        </div>
+        
+                        <div class="col-4">
+                            <img src="images/CBB-medium.png" id="food">
+                        </div>
+        
+                    </div>
+                    <hr class="hrall">
+        
+                    <div class="row">
+                        <div class="col-8">
+                            <img src="images/nonveg-icon.png" id="nonveg">
+                            <i class="fa-solid fa-star" id="star1"></i><b id="star1">Bestseller</b>
+                            <h6>Chicken Biriyani Bucket -Large</h6>
+                            <p>₹1365</p>
+                            <p class="raita">Serves 7 Persons along with 7 eggs</p>
+                        </div>
+        
+                        <div class="col-4">
+                            <img src="images/CBB-large.png" id="food">
+                        </div>
+        
+                    </div>
+                    <hr class="hrall">
+        
 
                     </div>
-
-                    <div class="col-4">
-                        <img src="images/chickenbiryani.png" id="food">
-                    </div>
+                  </div>
                 </div>
-            </div>
-
-            <hr class="hrall">
-
-            <div class="row">
-                <div class="col-8">
-                    <img src="images/nonveg-icon.png" id="nonveg">
-                    <i class="fa-solid fa-star" id="star1"></i><b id="star1">Bestseller</b>
-                    <h6>Mutton Biryani</h6>
-                    <p>₹208</p>
-                    <p class="raita">Slow cooked aromatic rice layered with marinated mutton pieces in a delicate blend
-                        of whole spices, served with raita.</p>
-
-                </div>
-
-                <div class="col-4">
-                    <img src="images/muttonbiryani.png" id="food">
-                </div>
-
-            </div>
-
-            <hr class="hrall">
-
-            <div class="row">
-                <div class="col-8">
-                    <img src="images/nonveg-icon.png" id="nonveg">
-                    <i class="fa-solid fa-star" id="star1"></i><b id="star1">Bestseller</b>
-                    <h6>Empty Biryani</h6>
-                    <p>₹117</p>
-                </div>
-
-                <div class="col-4">
-                    <img src="images/emptybiryani.png" id="food">
-                </div>
-
-            </div>
-            <hr class="hrall">
-
-            <div class="row">
-                <div class="col-8">
-                    <img src="images/nonveg-icon.png" id="nonveg">
-                    <i class="fa-solid fa-star" id="star1"></i><b id="star1">Bestseller</b>
-                    <h6>Egg Biryani</h6>
-                    <p>₹130</p>
-                    <p class="raita">Healthy yet wholesome eggs covered in flavor packed masala and slow cooked rice.
-                    </p>
-
-                </div>
-
-                <div class="col-4">
-                    <img src="images/eggbiryani.png" id="food">
-                </div>
-
-            </div>
-            <hr class="hrall">
-
-            <div class="row">
-                <div class="col-8">
-                    <img src="images/nonveg-icon.png" id="nonveg">
-                    <i class="fa-solid fa-star" id="star1"></i><b id="star1">Bestseller</b>
-                    <h6>Pepper Chicken</h6>
-                    <p>₹156</p>
-                    <p class="raita">Succulent pieces of chicken tossed along with pungent pepper and masalas, and
-                        cooked to a juicy perfection.</p>
-
-                </div>
-
-                <div class="col-4">
-                    <img src="images/pepperchicken.png" id="food">
-                </div>
-
-            </div>
-            <hr class="hrall">
-
-            <div class="row">
-                <div class="col-8">
-                    <img src="images/nonveg-icon.png" id="nonveg">
-                    <i class="fa-solid fa-star" id="star1"></i><b id="star1">Bestseller</b>
-                    <h6>Boneless Chilli Chicken</h6>
-                    <p>₹130</p>
-                    <p class="raita">Juicy boneless chicken chunks dipped in seasoned batter, fried and then tossed in a
-                        spicy chilli sauce along with peppers and more.</p>
-
-                </div>
-
-                <div class="col-4">
-                    <img src="images/boneless.png" id="food">
-                </div>
-
-            </div>
-            <hr class="hrall">
-
-            <div class="row">
-                <div class="col-8">
-                    <img src="images/nonveg-icon.png" id="nonveg">
-                    <i class="fa-solid fa-star" id="star1"></i><b id="star1">Bestseller</b>
-                    <h6>Chicken Fry</h6>
-                    <p>₹156</p>
-                    <p class="raita">Pieces of chicken marinated in a spicy masala and deep fried.</p>
-                </div>
-
-                <div class="col-4">
-                    <img src="images/chickenfry.png" id="food">
-                </div>
-            </div>
-
-            <hr class="hrall">
-
-            <div class="row">
-                <div class="col-8">
-                    <img src="images/nonveg-icon.png" id="nonveg">
-                    <i class="fa-solid fa-star" id="star1"></i><b id="star1">Bestseller</b>
-                    <h6>Chicken Gravy</h6>
-                    <p>₹169</p>
-                    <p class="raita">Perfectly combined juicy chicken morsels with the aroma of whole spices.</p>
-                </div>
-                <div class="col-4">
-                    <img src="images/chickengravy.png" id="food">
-                </div>
-            </div>
-
-
-            <hr class="hrall">
-
-            <div class="row">
-                <div class="col-8">
-                    <img src="images/nonveg-icon.png" id="nonveg">
-                    <i class="fa-solid fa-star" id="star1"></i><b id="star1">Bestseller</b>
-                    <h6>Chicken Manchurian</h6>
-                    <p>₹169</p>
-                </div>
-
-                <div class="col-4">
-                    <img src="images/chickenmanchurian.png" id="food">
-                </div>
-
-            </div>
-            <hr class="hrall">
-
-            <div class="row">
-                <div class="col-8">
-                    <img src="images/nonveg-icon.png" id="nonveg">
-                    <i class="fa-solid fa-star" id="star1"></i><b id="star1">Bestseller</b>
-                    <h6>Chicken Sukka</h6>
-                    <p>₹156</p>
-                </div>
-
-                <div class="col-4">
-                    <img src="images/chickensukka.png" id="food">
-                </div>
-
-            </div>
-            <hr class="hrall">
-
-            <div class="row">
-                <div class="col-8">
-                    <img src="images/nonveg-icon.png" id="nonveg">
-                    <i class="fa-solid fa-star" id="star1"></i><b id="star1">Bestseller</b>
-                    <h6>Mutton Fry</h6>
-                    <p>₹240</p>
-                </div>
-
-                <div class="col-4">
-                    <img src="images/muttonfry.png" id="food">
-                </div>
-
-            </div>
-            <hr class="hrall">
-
-            <div class="row">
-                <div class="col-8">
-                    <img src="images/nonveg-icon.png" id="nonveg">
-                    <i class="fa-solid fa-star" id="star1"></i><b id="star1">Bestseller</b>
-                    <h6>Mutton Kudal</h6>
-                    <p>₹195</p>
-                </div>
-
-                <div class="col-4">
-                    <img src="images/muttonkudal.png" id="food">
-                </div>
-
-            </div>
-
-            <hr class="hrall">
-
-            <div class="row">
-                <div class="col-8">
-                    <img src="images/nonveg-icon.png" id="nonveg">
-                    <i class="fa-solid fa-star" id="star1"></i><b id="star1">Bestseller</b>
-                    <h6>Mutton Sukka</h6>
-                    <p>₹221</p>
-                </div>
-
-                <div class="col-4">
-                    <img src="images/muttonsukka.png" id="food">
-                </div>
-
-            </div>
-            <hr class="hrall">
-
-            <div class="row">
-                <div class="col-8">
-                    <img src="images/nonveg-icon.png" id="nonveg">
-                    <i class="fa-solid fa-star" id="star1"></i><b id="star1">Bestseller</b>
-                    <h6>Mutton Gravy</h6>
-                    <p>₹195</p>
-                </div>
-
-                <div class="col-4">
-                    <img src="images/muttongravy.png" id="food">
-                </div>
-
-            </div>
-            <hr class="hrall">
-
-            <div class="row">
-                <div class="col-8">
-                    <img src="images/nonveg-icon.png" id="nonveg">
-                    <i class="fa-solid fa-star" id="star1"></i><b id="star1">Bestseller</b>
-                    <h6>Chicken Biriyani Bucket -Medium</h6>
-                    <p>₹780</p>
-                    <p class="raita">Serves 4 persons alon with 4 eggs</p>
-                </div>
-
-                <div class="col-4">
-                    <img src="images/CBB-medium.png" id="food">
-                </div>
-
-            </div>
-            <hr class="hrall">
-
-            <div class="row">
-                <div class="col-8">
-                    <img src="images/nonveg-icon.png" id="nonveg">
-                    <i class="fa-solid fa-star" id="star1"></i><b id="star1">Bestseller</b>
-                    <h6>Chicken Biriyani Bucket -Large</h6>
-                    <p>₹1365</p>
-                    <p class="raita">Serves 7 Persons along with 7 eggs</p>
-                </div>
-
-                <div class="col-4">
-                    <img src="images/CBB-large.png" id="food">
-                </div>
-
-            </div>
-            <hr class="hrall">
-
-            <div class="row">
-                <div class="col-8">
-                    <img src="images/nonveg-icon.png" id="nonveg">
-                    <i class="fa-solid fa-star" id="star1"></i><b id="star1">Bestseller</b>
-                    <h6>Egg Masala</h6>
-                    <p>₹104</p>
-                </div>
-
-                <div class="col-4">
-                    <img src="images/eggmasala.png" id="food">
-                </div>
-
-            </div>
+              </div>
 
             <hr style="height: 10px;">
 
